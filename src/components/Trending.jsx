@@ -14,7 +14,7 @@ function Trending({className, size, btn}) {
         <div className=' h-0.5 bg-orange-400 mb-8'></div>
 
         <div className="container">
-            <div className='grid gap-5'>
+            <div className='flex flex-col gap-4'>
                 <div className={className}>
                     <div className='h-60 bg-slate-800 rounded-lg'>
                     

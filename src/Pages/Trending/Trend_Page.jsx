@@ -5,12 +5,10 @@ import Trending from '../../components/Trending'
 
 function Trend_Page() {
   return (
-    <div className='mr-8 ml-8 w-full md:mr-16 md:ml-16'>
+    <div className='mr-8 ml-8 w-full'>
       <Navbar />
-      <div className='my-4'></div>
-      <Trending className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3' btn='hidden'/>
-      <div className='my-8'></div>
-      <Footer className='bg-slate-700 -mr-8 -ml-8 flex justify-center lg:absolute lg:bottom-0 lg:w-full'/>
+      <Trending className='grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 mb-12 lg:mb-0' btn='hidden'/>
+      <Footer className='bg-slate-700 -mr-8 -ml-8 flex lg:absolute lg:bottom-0 lg:w-full'/>
     </div>
   )
 }

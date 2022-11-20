@@ -8,7 +8,7 @@ function Blog_page() {
     <div className='mr-8 ml-8 w-full'>
         <Navbar />
         <Articles />
-        <Footer className='bg-slate-700 -mr-8 -ml-8 flex justify-center absolute bottom-0 w-full'/>
+        <Footer className='bg-slate-700 -mr-8 -ml-8 flex justify-center'/>
     </div>
   )
 }
