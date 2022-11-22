@@ -5,7 +5,7 @@ function Recent() {
     <div className='recent'>
         <h1 className='text-xl font-bold mb-2 text-slate-800 uppercase'>Recent News</h1>
         <div className='w-3/5 h-0.5 bg-orange-400 mb-8'></div>
-        <div className="container flex flex-col lg:flex-row lg:w-full lg:gap-x-4">
+        <div className="container flex flex-col gap-y-8 lg:flex-row lg:w-full lg:gap-x-4">
           <div className='lg:w-full grid gap-y-3 lg:w-2/5'>
                   <div className='w-full h-40 bg-slate-800 rounded-lg'>
                   

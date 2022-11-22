@@ -9,7 +9,7 @@ function Trending({className, size, btn}) {
         navigate('/trend')
     }
   return (
-    <div className={size}>
+    <div className={`${size}`}>
         <h1 className='text-lg font-bold mb-2 text-slate-800 uppercase'>Trending News</h1>
         <div className=' h-0.5 bg-orange-400 mb-8'></div>
 

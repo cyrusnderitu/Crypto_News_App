@@ -15,10 +15,10 @@ function Sidebar({className}) {
             <p className='mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure deserunt voluptatibus odio, 
                 ab optio officia esse expedita quos ducimus. Excepturi?
             </p>
-            <form className='flex border-2 border-orange-400 rounded-sm'>
-                <input type="email" name="email" placeholder='Email' className='w-full outline-none indent-4'/>
-                <button className='bg-orange-400 w-1/5 py-2 flex justify-center font-inherit' type="submit">
-                    <FaPaperPlane className='text-xl'/>
+            <form className='flex border-[3px] border-orange-400 rounded-sm items-center'>
+                <input type="email" name="email" placeholder='Email' className='w-full outline-none indent-4 text-xl'/>
+                <button className='bg-orange-400 w-1/5 flex justify-center py-2' type="submit">
+                    <FaPaperPlane className='text-[25px]'/>
                 </button> 
             </form>
         </div>
